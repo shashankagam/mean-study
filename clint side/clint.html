@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <script src="clint.js"></script>
+  </head>
+  <body>
+    <h1>Regiseration Form</h1>
+
+    <div>
+      Username <input type="text" name="" id="username" required />
+    </div>
+
+    <div style="margin-top: 8px">
+      Password <input type="password" name="" id="password" required />
+    </div>
+
+    <div style="margin-top: 8px">
+      Email <input type="text" name="" id="email" required />
+    </div>
+
+    <div style="margin-top: 8px">
+      Mobile <input type="text" name="" id="mobile" />
+    </div>
+
+    <div>
+      <input
+        type="button"
+        value="Register GET"
+        onclick="registerUserVer1()"
+      />
+
+      <input
+        type="button"
+        value="Register POST"
+        onclick="registerUsingPost()"
+      />
+    </div>
+  </body>
+</html>
